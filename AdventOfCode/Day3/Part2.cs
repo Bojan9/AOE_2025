@@ -4,7 +4,7 @@ namespace AdventOfCode.Day3
     {   
         public static void Run()
         {
-            string[] batteries = File.ReadAllLines("Day3/input.txt");
+            string[] batteries = File.ReadAllLines("AdventOfCode/Day3/input.txt");
 
             long count = 0;
 

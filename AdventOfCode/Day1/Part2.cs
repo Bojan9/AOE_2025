@@ -2,9 +2,9 @@ namespace AdventOfCode.Day1
 {
     class Part2
     {   
-        static void Run(string[] args)
+        public static void Run()
         {
-            string[] lines = File.ReadAllLines("Inputs/day01.txt");
+            string[] lines = File.ReadAllLines("AdventOfCode/Day1/input.txt");
 
             int position = 50;
             int count = 0;
